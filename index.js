@@ -3,7 +3,8 @@ module.exports = function(racer) {
   var options = {
     schemas: {},
     formats: {},
-    validators: {}
+    validators: {},
+    skipNonExisting: true
   };
   racer._models = {};
 
